@@ -6,4 +6,30 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: black;	
+  
+}
+
+.main {
+  
+  display: flex;
+  flex-direction: column;
+  background-color: #ED1C22;	
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+li {
+  list-style: none;
+  font-size: 9em;
+  color: yellow;
+  padding: 0.5em;
+  font-family: 'Times New Roman', Times, serif
+  
+}
+
+li img {
+  height: 5em;
 }
